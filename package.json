@@ -1,6 +1,6 @@
 {
   "name": "spinal-organ-monitoring",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,14 +9,14 @@
   "dependencies": {
     "colors": "^1.3.2",
     "q": "^1.5.1",
+    "spinal-core-connectorjs": "git+https://github.com/spinalcom/spinal-core-connectorjs.git",
     "spinal-lib-forgefile": "git+https://github.com/spinalcom/spinal-lib-forgefile.git",
     "spinal-models-bmsNetwork": "git+https://github.com/spinalcom/spinal-models-bmsNetwork.git",
     "spinal-models-building-elements": "git+https://github.com/spinalcom/spinal-models-building-elements.git",
     "spinal-models-timeSeries": "git+https://github.com/spinalcom/spinal-models-timeSeries.git",
-    "spinalcore": "^2.1.0",
-    "spinalgraph": "git+https://github.com/spinalcom/spinal-model-graph.git"
+    "spinalgraph": "git+https://github.com/spinalcom/spinal-model-graph.git#v01"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "spinalcom"
 }
